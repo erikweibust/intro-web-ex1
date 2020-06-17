@@ -1,3 +1,22 @@
-h1 {
-   color: red;
+.header {
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+
+.body {
+   display: flex;
+   flex-direction: row;
+   border-top: solid;
+   border-bottom: solid;
+}
+
+.footer {
+   display: flex;
+   flex-direction: row;
+}
+
+.article {
+   border-left: gray solid;
+   border-right: gray solid;
+
 }
