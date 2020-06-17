@@ -1,22 +1,56 @@
+* {
+   box-sizing: border-box;
+ }
+
 .header {
-   font-family: 'Times New Roman', Times, serif;
+   font-family: "Snell Roundhand";
+   font-weight: normal;
+   font-size: 60px;
    text-align: center;
+   border-bottom: solid;
 }
 
 .body {
    display: flex;
    flex-direction: row;
-   border-top: solid;
    border-bottom: solid;
+}
+
+.body-left {
+   width: 25%;
+}
+
+.body-middle {
+   width: 50%;
+}
+
+.body-right {
+   width: 25%;
 }
 
 .footer {
    display: flex;
    flex-direction: row;
+   border-bottom: solid;
+}
+
+.footer-left {
+   width: 25%;
+}
+
+.footer-right {
+   width: 75%;
+   /*padding: 0px;
+   margin: 0px;*/
 }
 
 .article {
    border-left: gray solid;
    border-right: gray solid;
 
+}
+
+h3 {
+   text-align: center;
+   font-style: italic;
 }
